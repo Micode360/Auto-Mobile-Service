@@ -1,0 +1,14 @@
+[
+    {
+        "car_name": "camry",
+        "model": "5036",
+        "color": "yellow",
+        "price": "40150000"
+    },
+    {
+        "car_name": "honda",
+        "model": "accord",
+        "color": "blue",
+        "price": "25000000"
+    }
+]
