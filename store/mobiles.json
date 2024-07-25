@@ -1,14 +1,8 @@
 [
     {
-        "car_name": "camry",
-        "model": "5036",
-        "color": "yellow",
-        "price": "40150000"
-    },
-    {
-        "car_name": "honda",
-        "model": "accord",
-        "color": "blue",
-        "price": "25000000"
+        "car_name": "speedrunner",
+        "model": "4026",
+        "color": "green",
+        "price": "32000000"
     }
 ]

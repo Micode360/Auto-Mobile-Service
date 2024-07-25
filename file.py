@@ -17,8 +17,20 @@ class File:
      
     @staticmethod
     def load_from_file(filename):
-        pass
+        try: # Exceptional Handling
+            with open(filename, 'r') as file:
+                return json.load(file)
+        except FileNotFoundError:
+            print(f"file not found {filename}")
+            return []
+        except json.JSONDecodeError:
+            print(f"There is an error decoding the json file structure at {filename}")
+            return []
 
     @staticmethod
     def delete_file(filename):
-        pass
+        if os.path.exists(filename):
+            os.remove(filename)
+            print(f"{filename} has been deleted.")
+        else:
+            print(f"{filename} does not exist.")
